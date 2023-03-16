@@ -1,7 +1,4 @@
 import React from "react";
-import "../index.css"
-
-
 
 export default function footer(){
     const year = new Date();

@@ -1,14 +1,15 @@
 import React from "react";
-import "../index.css";
 
 export default function Heading() {
   return (
+    <nav className="navigation">
+    <div className="responsive_with">
     <header>
-      <div className="responsive_with">
         <div className="Head">
           <p>Logo</p>
         </div>
-      </div>
     </header>
+    </div>
+    </nav>
   );
 }
